@@ -1,0 +1,55 @@
+div > a:link , div > a:visited , nav > a:visited , nav > a:link {
+   text-decoration: none;
+   color: white;
+}
+nav > div:not(.logo) {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: darkcyan;
+  border: black solid;
+  text-align: center;
+  padding: 8px;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  width: 150px;
+  border-radius: 5px;
+ }
+
+.logo{
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   grid-area: logo;
+   color: white;
+   font-size: large;
+  font-weight: bold;
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Home{
+   grid-area: home;
+}
+.Challenge{
+   grid-area: challenge;
+}
+.Analysis{
+   grid-area: analysis;
+}
+.About{
+   grid-area: about;
+}
+nav{
+   display: grid;
+   grid-template-areas: 'logo logo home challenge analysis about';
+   justify-content: space-evenly;
+   align-items: center;
+   justify-items: start;
+   background-color: #0000007d;
+   box-shadow: 0 5px #00000029;
+   padding: 10px;
+}
+div:not(.image-container) > img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
