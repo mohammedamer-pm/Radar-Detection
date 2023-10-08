@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+main{
+    background-image:url(Picture1.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: black solid; */
+    border: 0;
+    height: 100vh;
+}
+.darkd{
+    background-color: #00000070;
+    background-size: cover;
+    height: 100vh;
+    border: 0;
+}
+h2{
+    margin-top: 0px;
+    font-size: 60px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+p{
+    margin-top: 0px;
+    color: white;
+    font-size: 28px;
+    line-height: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+}
